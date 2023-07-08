@@ -109,14 +109,45 @@
   line-height: 26px;
 }
 
-.plan-section-title{
-    text-align: center;
-    margin-bottom: 20px;
+.plan-section-title {
+  text-align: center;
+  margin-bottom: 20px;
 }
 
-.plan-list{
-    justify-content: space-around;
-    align-items: center;
-    margin-left: 310px;
-    margin-right: 250px;
+.plan-list {
+  justify-content: space-around;
+  align-items: center;
+  margin-left: 310px;
+  margin-right: 250px;
+}
+
+.section-bg {
+  background-image: url("images/watch.png");
+  background-repeat: no-repeat;
+  margin: 130px 230px;
+  height: 1000px;
+  width: auto;
+}
+
+.section-bg-title {
+  padding-top: 59px;
+  padding-left: 64px;
+  color: #fff;
+  font-family: Work Sans;
+  font-size: 30px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+
+.section-btn {
+  margin-left: 60px;
+  margin-top: 25px;
+}
+
+.secondary-btn {
+  border-radius: 5px;
+  background: #fff;
+  width: 80px;
+  height: 44px;
 }
