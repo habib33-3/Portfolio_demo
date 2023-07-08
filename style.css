@@ -5,7 +5,6 @@
   list-style: none;
 }
 
-
 /* Shared */
 
 .flex {
@@ -64,7 +63,7 @@
   gap: 200px;
 }
 
-img {
+.section-pic {
   width: 350px;
   height: 550px;
   margin: 100px;
@@ -108,4 +107,16 @@ img {
   font-style: normal;
   font-weight: 400;
   line-height: 26px;
+}
+
+.plan-section-title{
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.plan-list{
+    justify-content: space-around;
+    align-items: center;
+    margin-left: 310px;
+    margin-right: 250px;
 }
