@@ -60,19 +60,27 @@
 
 .section-content {
   flex-direction: row;
-  gap: 200px;
+  /* gap: 200px; */
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 20px;
+}
+.section-img {
+  width: 100%;
+  display: flex;
+  justify-content: center;
 }
 
 .section-pic {
   width: 350px;
   height: 550px;
-  margin: 100px;
 }
 
 .section-text {
   flex-direction: column;
   gap: 20px;
-  align-items: right;
+  align-items: flex-start;
+  justify-content: flex-start;
 }
 
 .section-header {
@@ -123,10 +131,11 @@
 
 .section-bg {
   background-image: url("images/watch.png");
+  background-size: contain;
   background-repeat: no-repeat;
   margin: 130px 230px;
-  height: 1000px;
-  width: auto;
+  /* height: 600px;
+  width: auto; */
 }
 
 .section-bg-title {
@@ -143,6 +152,7 @@
 .section-btn {
   margin-left: 60px;
   margin-top: 25px;
+  padding-bottom: 20px;
 }
 
 .secondary-btn {
@@ -150,4 +160,52 @@
   background: #fff;
   width: 80px;
   height: 44px;
+}
+
+footer {
+  background-color: black;
+  margin: 0;
+  /* width: 1600px;
+  height: 577px; */
+}
+
+.footer-content {
+  align-items: center;
+  justify-content: space-around;
+}
+
+.footer-feature {
+  width: 50%;
+}
+
+.footer-content-title {
+  color: #f8f8f8;
+  font-family: Work Sans;
+  font-size: 45px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+
+.footer-text {
+  color: #fff;
+  font-family: Work Sans;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 26px;
+}
+
+.logo-container {
+  /* align-items: flex-start; */
+  justify-content: left;
+  gap: 3px;
+}
+
+input {
+  background: var(--dark-01, #151414);
+  width: 325px;
+  height: 50px;
+  flex-shrink: 0;
+  margin-bottom: 30px;
 }
